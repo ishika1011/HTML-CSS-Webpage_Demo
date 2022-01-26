@@ -1,0 +1,280 @@
+html,body{
+ margin:0;
+ padding:0;   
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+header{
+    background-color: black; color: white; text-align: left;
+    
+    word-spacing: 30px;
+    font-size: 12;
+    
+}
+
+#swagblogger{
+    padding-left: 200;
+    padding-right: 20;
+    font-size: 20;
+}
+
+.banner{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    
+
+}
+.banner_img{
+    margin-top: 5;
+    position: relative;
+    width:100%;
+    height: auto;
+    opacity: 0.55;
+
+  }
+ 
+.glimp{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    margin-left: 70;
+    
+}
+
+.Head{
+    text-align: center;
+    background-color: #D65DB1;
+}
+
+.textf{
+    color: white;
+}
+
+input.formsubmit[type=submit] {
+    
+    background-color: #D65DB1;
+    color: white;
+    border: none;
+    margin-bottom: 10;
+    text-decoration: none;
+    margin-top: 2; 
+    margin-bottom: 20;  
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }  
+
+.youtube{
+
+    margin-bottom: 10;
+    margin-top: 10;
+  }
+
+
+
+#heading1{
+    color: brown;
+}
+#heading2{
+    color: palevioletred;
+    
+}
+#heading3{
+    color: orange;
+}
+#heading4{
+    color: pink;
+}
+#heading5{
+    color: red;
+}
+#heading6{
+    color: blue;
+}
+#bold_para{
+    color: crimson;
+}
+
+.block{
+    border-left: 6px solid gray;
+    background-color: black;
+    color: white;
+    margin-left: 15;
+    margin-top: 15;
+    margin-bottom: 25;
+    
+}
+
+.shadow{
+    box-shadow: 1px 2px 15px black;
+    padding: 10;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20;
+    margin-top: 30;
+    border: 1px solid rgb(160, 160, 160);
+  }
+  
+thead, tbody {
+    text-align: left;
+    border: 1px solid white;
+    padding: 8px;
+  }
+th,td{
+    padding: 8px;
+    border: 1px solid white;
+}
+
+
+  
+tr:nth-child(even){background-color: #f2f2f2}
+  
+th {
+    background-color: orangered;
+    color: white;
+  }
+
+.border{
+    
+        border-bottom: 3px solid gray;
+        
+      
+}
+cite{
+      font-size: 22;
+  }
+.un_li{
+    color: darkred;
+
+}
+ul{
+    padding-left: 50;
+}
+.or_li{
+    color: orangered;
+
+}
+ol{
+    padding-left: 50;
+}
+
+form{
+    background-color: #845EC2;
+    padding: 15;
+    margin-top: 20;
+}
+input[type=text],input[type=email],input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+input[type=submit] {
+    
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 32px;
+    text-decoration: none;
+    margin-top: -35;
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }  
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+footer{
+    background-color: black; color: white; text-align: center;
+    padding: 10;
+    
+    font-size: 12;
+}
+
+input.signin[type=submit] {
+    
+    background-color: green;
+    color: white;
+    border: none;
+    margin-top: 10;
+    margin-bottom: 10;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 4px;
+    
+  }  
+
+.w3school{
+    margin-top: 10;
+    padding-top: 0;
+    color: black;
+    text-decoration: none;
+    font-size: 20;
+    position: relative;
+    display: inline-block;
+    
+}
+.w3school.tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+}
+.nav_menu{
+    padding: 10;
+    margin: 10;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.box-animation{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+}
+  
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1290; top:0px;}
+    50%  {background-color:blue; left:1290; top:520;}
+    75%  {background-color:green; left:0px; top:520;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+.hover{
+    width: 100px;
+    height: 20px;
+    background: black;
+    transition: width 2s;
+}
+  
+.hover:hover {
+    width: 100%;
+  }
